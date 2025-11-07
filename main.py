@@ -30,17 +30,17 @@ def is_valorant_running():
             return True
     return False
 
-print("Highlight Tracker v2 iniciado... (pressione CTRL+C para parar)")
+print("Highlight Tracker v1 iniciado... (pressione CTRL+C para parar)")
 
 try:
     while True:
-        # Verificar se Valorant está aberto
+        # Verifica se o Valorant está aberto
         if not is_valorant_running():
             print("⚠️ Valorant não está em execução. Aguardando...")
             time.sleep(5)
             continue
 
-        # Capturar tela
+        # Captura tela
         screenshot = pyautogui.screenshot()
         frame = np.array(screenshot)
         frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
@@ -91,3 +91,4 @@ try:
 
 except KeyboardInterrupt:
     print("\n🛑 Programa encerrado.")
+
