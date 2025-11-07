@@ -1,6 +1,6 @@
 # Valorant Highlight Tracker v1
 
-> Automação inteligente para detectar e salvar automaticamente seus **melhores momentos (ACE / CLUTCH)** no Valorant.
+ **Automação inteligente para detectar e salvar automaticamente seus melhores momentos (ACE / CLUTCH) no Valorant.**
 
 Este projeto utiliza **OCR** e **captura de tela em tempo real** para identificar quando uma jogada de destaque ocorre no jogo e gravar automaticamente os últimos segundos, salvando o clipe em uma pasta local.
 
@@ -24,10 +24,14 @@ Este projeto utiliza **OCR** e **captura de tela em tempo real** para identifica
 
  [Baixar Tesseract OCR (UB Mannheim Build)](https://github.com/UB-Mannheim/tesseract/wiki)
 
+---
+
 Durante a instalação, copie o caminho de instalação (exemplo):
 C:\Program Files\Tesseract-OCR\tesseract.exe
+
 Depois, substitua esse caminho na variável:
 **pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"**
+
 ---
 
 ## Instalação
