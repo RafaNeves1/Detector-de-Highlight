@@ -76,7 +76,7 @@ Não utiliza APIs ou dados internos do Valorant.
 ---
 
 ## 🤝 Contribuindo
-
+---
 **Sinta-se à vontade para contribuir!**
 
 **Abra uma issue para relatar bugs ou sugerir melhorias, ou envie um pull request.**
@@ -85,6 +85,7 @@ Não utiliza APIs ou dados internos do Valorant.
 ## 🧑‍💻 Autor
 
 **Rafael Neves**
+
 📧 Contato: rafahneves1@gmail.com
 
 🌐 GitHub: https://github.com/RafaNeves1
